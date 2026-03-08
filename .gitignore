@@ -27,12 +27,19 @@ Thumbs.db
 desktop.ini
 
 # ===== Data (too large for Git) =====
-data/
+data/test_images/
 *.jpg
 *.jpeg
-*.png
 *.bmp
 *.webp
+
+# Allow specific data files tracked in the repo
+!data/LLAVA VER*.xlsx
+
+# ===== Images (general) =====
+# Block images everywhere except assets/
+*.png
+!assets/*.png
 
 # ===== Model Files (too large for Git) =====
 *.bin
