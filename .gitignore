@@ -1,0 +1,51 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Virtual Environment =====
+venv/
+env/
+.venv/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Data (too large for Git) =====
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# ===== Model Files (too large for Git) =====
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+# ===== Results (regeneratable) =====
+results/*.xlsx
+results/*.csv
+
+# ===== Misc =====
+*.log
+*.tmp
+*.bak

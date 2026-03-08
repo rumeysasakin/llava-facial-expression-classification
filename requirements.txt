@@ -1,0 +1,21 @@
+# Core ML Framework
+torch>=2.0.0
+transformers>=4.39.0
+accelerate>=0.27.0
+
+# Model Optimization (quantization & parameter-efficient fine-tuning)
+peft>=0.9.0
+bitsandbytes>=0.43.0
+trl>=0.8.3
+
+# Data Handling
+datasets==3.1.0
+fsspec==2024.9.0
+gcsfs==2024.10.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Results & Export
+pandas>=2.0.0
+openpyxl>=3.1.0
