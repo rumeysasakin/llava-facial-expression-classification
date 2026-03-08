@@ -54,7 +54,7 @@ LLaVA (Large Language and Vision Assistant) combines a vision encoder with a lar
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/llava-facial-expression-classification.git
+git clone https://github.com/rumeysasakin/llava-facial-expression-classification.git
 cd llava-facial-expression-classification
 
 # Create a virtual environment (optional but recommended)
